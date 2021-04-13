@@ -5,3 +5,5 @@ Conteúdo com scripts funcionais de aprendizagem do livro "Algoritmos Funcionais
 Gabarito dos exerc´cisios de fixação.
 
 Local: https://www.altabooks.com.br/produto/algoritmos-funcionais/.
+
+OBS.: Estes arquivo são uma prévia do conjunto de scripts que serão parte da segunda edição deste livro.
