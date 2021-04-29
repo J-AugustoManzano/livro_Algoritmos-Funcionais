@@ -1,9 +1,11 @@
 # Livro: Algoritmos Funcioanis (ALTA BOOKS)
-# Introdução minimalista à logica de programação funcional pura aplicada à teoria dos conjuntos
+Introdução minimalista à logica de programação funcional pura aplicada à teoria dos conjuntos
 
-Conteúdo com scripts funcionais de aprendizagem do livro "Algoritmos Funcionais"
-Gabarito dos exerc´cisios de fixação.
+ESTA OBRA MOSTRA CONCEITOS RELACIONADOS À PROGRAMAÇÃO FUNCIONAL:
+ÁLGEBRA; ARITMÉTICA; CONJUNTOS E FUNÇÕES.
 
-Local: https://www.altabooks.com.br/produto/algoritmos-funcionais/.
+São apresentados os princípios operacionais básicos de trabalho, destacando-se: apresentação de tipos de dados; variáveis; constantes; operadores aritméticos, relacionais e lógicos; expressões matemáticas e lógicas; definição de funções e constantes; uso de tomadas de decisão com desvio condicional indireto (correspondência de padrões); desvio condicional direto; operações de recursividade; operações com conjuntos: focando o gerenciamento das partes de uma lista (cabeça, cauda, último e arranjo, faixa e oposto); compreensão de listas (par, ímpar, múltiplo, divisor, primo e tamanho); relações com conjuntos (união, intersecção, diferença, classificação, único, possui, junção, membro, igualdade e inclusão); gerenciamento de listas (busca, mostra, replicar, começo, final, separar e fatiar) e processamento de sequências (domínio, contradomínio, imagem, mapeamento, filtragem, redução e compactação). A motivação para o desenvolvimento deste trabalho veio da aparente ausência de livros voltados ao estudo da lógica de programação funcional no Brasil e de poucos outros que tratam de maneira independente o assunto no exterior.
 
-OBS.: Estes arquivo são uma prévia do conjunto de scripts que serão parte da segunda edição deste livro.
+São facilmente encontradas obras que tratam as linguagens funcionais em si, mas a apresentação da parte lógica e seu detalhamento operacional de um foco genérico sem a influência direta de uma linguagem não são disponibilizados.
+
+Aparentemente pequeno, com quatro capítulos, este trabalho busca fundamentar dentro de seu escopo diversas ações matemáticas e de programação importantes dentro do universo funcional. Os exemplos de aprendizagem são codificados em português funcional e ilustrados nas linguagens de programação formais Haskell e Hope. O objetivo não é ensinar essas linguagens, mas usá-las apenas como elementos de contextualização para demonstrar de duas formas distintas a representação do pensamento lógico expresso em português funcional, com a utilização do mínimo de recursos disponibilizados sem entrar em detalhes técnicos dessas linguagens, propondo o desenvolvimento de soluções de problemas com o raciocínio funcional da forma mais genérica possível.
