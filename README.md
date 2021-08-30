@@ -1,4 +1,4 @@
-# Livro: Algoritmos Funcioanis (ALTA BOOKS)
+# Livro: Algoritmos Funcionais (ALTA BOOKS)
 Introdução minimalista à logica de programação funcional pura aplicada à teoria dos conjuntos
 
 ESTA OBRA MOSTRA CONCEITOS RELACIONADOS À PROGRAMAÇÃO FUNCIONAL:
