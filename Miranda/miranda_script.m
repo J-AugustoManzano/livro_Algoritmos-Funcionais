@@ -334,10 +334,8 @@ diferenca (a : ax, b) = diferenca (ax, b), if (membro(a, b))
                       = a : diferenca (ax, b), otherwise
 
 sub_lista :: ([num], [num]) -> bool
-sub_lista ([], []) = True
-sub_lista ([], b) = True
-sub_lista (a, []) = False
-sub_lista (a : ax, b) = sub_lista (ax, b), if (membro (a, b))
+sub_lista ([], y) = True
+sub_lista (x : xs, y) = sub_lista (xs, y), if (membro (x, y))
                       = False, otherwise
 
 igualdade :: ([num], [num]) -> bool
