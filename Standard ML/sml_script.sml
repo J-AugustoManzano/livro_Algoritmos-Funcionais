@@ -284,11 +284,9 @@ fun diferenca (a : real list, []) = []
                              then diferenca(ax, b) 
                              else a :: diferenca(ax, b);
 
-fun sub_lista ([], []) = true
-  | sub_lista ([], _) = true
-  | sub_lista (_, []) = false
-  | sub_lista (a :: ax, b) = if (membro(a, b))
-                             then sub_lista(ax, b)
+fun sub_lista ([], y) = true
+  | sub_lista (x :: xs, y) = if (membro(x, y))
+                             then sub_lista(xs, y)
                              else false;
 
 fun igualdade (a, b) =
