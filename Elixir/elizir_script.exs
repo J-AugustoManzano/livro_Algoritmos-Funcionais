@@ -311,12 +311,11 @@ defmodule Diferenca do
                            else: [a | de(ax, b)]
 end
 
+
 defmodule Sub_lista do
-  def de([], []), do: true
-  def de([], _), do: true
-  def de(_, []), do: false
-  def de([a | ax], b), do: if (Membro.de a, b),
-                           do: de(ax, b),
+  def de([], y), do: true
+  def de([x | xs], y), do: if (Membro.de x, y),
+                           do: de(xs, y),
                            else: false
 end
 
