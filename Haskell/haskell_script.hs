@@ -241,11 +241,9 @@ diferenca (a : ax) b = if (membro a b)
                        else a : diferenca ax b
 
 sub_lista :: (Eq a, Num a) => [a] -> [a] -> Bool
-sub_lista [] [] = True
-sub_lista [] _ = True
-sub_lista _ [] = False
-sub_lista (a : ax) b = if (membro a b)
-                       then sub_lista ax b
+sub_lista [] y = True
+sub_lista (x : xs) y = if membro x y
+                       then sub_lista xs y
                        else False
 
 igualdade :: (Eq a, Ord a, Num a) => [a] -> [a] -> Bool
