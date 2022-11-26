@@ -316,11 +316,9 @@ let rec diferenca (lista1 : float list) lista2 =
 
 let rec sub_lista (lista1 : float list) lista2 =
   match lista1, lista2 with
-  | [], [] -> true
-  | [], _ -> true
-  | _, [] -> false 
-  | a :: ax, b -> if (membro a b)
-                  then sub_lista ax b
+  | [], y -> true
+  | x :: xs, y -> if (membro x y)
+                  then sub_lista xs y
                   else false;;
 
 let igualdade (lista1 : float list) lista2 =
